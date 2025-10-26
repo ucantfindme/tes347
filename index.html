@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>IISc QFF 2025</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script defer src="script.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="site-header">
+            <div class="logo">
+                <img src="assets/Top-qiskit-logo.png" alt="Qiskit" width="35" />
+                <nav class="nav-main"><a href="#"><span class="logo-text">IISc Qiskit Fall Fest 2025</span></a></nav>
+            </div>
+            <nav class="nav-links" id="nav-links">
+                <a href="#details">Details</a>
+                <a href="https://docs.google.com/document/d/e/2PACX-1vSsS--oK1_wnLFpL49v24OksM9GULGYK4f6avmO34VwYYhD9nViaS3q5kd1zZ3T9VE0WVZnB69ML7Js/pub" target="_blank">Hackathon</a>
+                <a href="#schedule">Schedule</a>
+                <a href="#speakers">Speakers</a>
+                <a href="#collaborations">Collaborations</a>
+                <a href="#organizing">Organizing Team</a>
+                <a href="#links">Socials</a>
+                <a href="challenge.html">Eigen Trails</a>
+            </nav>
+            <div class="hamburger" id="hamburger">
+                &#9776;
+            </div>
+        </header>
+
+        <!-- Hero -->
+        <section class="hero" id="hero">
+            <div class="hero-content">
+                <h1>IISc x Qiskit Fall Fest 2025</h1>
+                <p class="hero-date">October 28 - November 02</p>
+                <p>Registration for attending in person is closed. Register below for attending virtually.</p>
+            </div>
+            <button class="hero-button" onclick="window.open('https://forms.gle/oTsz6LmymCxqVXUDA', '_blank')">Register Now</button>
+        </section>
+
+        <!-- Date -->
+        <section class="datetime" id="details">
+            <span class="countdown-announcement">Begins In</span>
+            <div class="countdown" id="countdown">
+                <span id="days" class="countdown-number">00</span>Days
+                <span id="hours" class="countdown-number">00</span>Hrs
+                <span id="minutes" class="countdown-number">00</span>Mins
+                <span id="seconds" class="countdown-number">00</span>Sec
+            </div>
+            <p class="extra-bold-1">
+                Explore quantum computing at IISc x Qiskit Fall Fest 2025!
+            </p>
+        <!--<p class="extra-bold-1 muted">
+                Talks, Hands-on sessions, and Hackathon for curious minds.
+            </p>
+        -->
+        </section>
+
+        <!-- About -->
+        <!--<h2 id="about-title">About the Event</h2>-->
+        <section class="about">
+            <div class="about-content">
+                
+                <p class="whitetext-unjust">
+                    The six-day program will include lectures and hands-on sessions ranging from basics to topics like Quantum Optimization, Quantum Simulations, Quantum Machine Learning, and Fault Tolerance and Error Correction, led by researchers from IBM Quantum and IISc.
+                </p>
+                <p class="whitetext">
+                    The event will culminate in a 24-hour Hackathon based on Qiskit with prompts spanning various applications of quantum computing. More details about the hackathon will be announced soon — <a href="https://docs.google.com/document/d/e/2PACX-1vSsS--oK1_wnLFpL49v24OksM9GULGYK4f6avmO34VwYYhD9nViaS3q5kd1zZ3T9VE0WVZnB69ML7Js/pub" target="_blank" class="no-deco">Hackathon Details</a>
+                </p>
+                <p class="whitetext">
+                    Other than the hackthon, daily challenges will be provided to keep participants engaged, earning them a spot on a leaderboard based on their performance. Top performers will win IBM Quantum swag. For any queries mail <u>iiscqiskitfallfest@gmail.com</u>.
+                </p>
+                <h3 id="eligibility">Eligibility</h3>
+                <p class="whitetext">
+                    The event is <u>open for all</u>. Participants from IISc can attended all the sessions in-person. A <u>limited number</u> of registrants who are from institutes in  <u>Karnataka</u> will be <u>selected</u> to come and attend the <u>three final days</u> in-person on <u>IISC campus</u>. Participants from outside will get to join all sessions and the hackathon <u>online</u>.
+                </p>
+            </div>
+            <img
+                src="assets/Details-body-Schrodinger.png"
+                alt="Someone thinking"
+                width="378"
+            />
+        </section>
+
+        <!-- Schedule -->
+        <section id="schedule" class="schedule">
+            <h2>Schedule</h2>
+            <h3>Detailed schedule to be announced soon.</h3>
+            <div class="timeline">
+                <div class="timeline-item left">
+                    <div class="timeline-date">October 28</div>
+                    <div class="timeline-content">
+                        <p>
+                            Kickoff
+                        </p>
+                        <p>
+                            Quantum Computing Intro
+                        </p>
+                        <p>
+                            Qiskit 101 - Hands-on
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item right">
+                    <div class="timeline-date">October 29 to October 30</div>
+                    <div class="timeline-content">
+                        <p>
+                            Online Talks
+                        </p>
+                        <p>
+                            Hands-on Sessions
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item left">
+                    <div class="timeline-date">October 31</div>
+                    <div class="timeline-content">
+                        <p>
+                            In-person Talks
+                        </p>
+                        <p>
+                            Hands-on Sessions
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item right">
+                    <div class="timeline-date">November 1</div>
+                    <div class="timeline-content">
+                        <p>
+                            In-person Talks
+                        </p>
+                        <p>
+                            Hands-on Sessions
+                        </p>
+                        <p>
+                            Hackathon Begins!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item left">
+                    <div class="timeline-date">November 2</div>
+                    <div class="timeline-content">
+                        <p>
+                            Hackathon Ends!
+                        </p>
+                        <p>
+                            Closing Ceremony
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Speakers -->
+        <section id="speakers" class="speakers">
+            <h2>Speakers</h2>
+            <div class="speakers-grid">
+                <div class="speaker-card" onclick="window.open('https://www.linkedin.com/in/lvsubramaniam/?originalSubdomain=in', '_blank')">
+                    <img src="assets/venkat.jpeg" alt="Venkat" />
+                    <h3>L Venkata Subramaniam</h3>
+                    <p>Head<br>IBM Quantum India</p>
+                </div>
+                <div class="speaker-card" onclick="window.open('https://www.linkedin.com/in/earnestchannel/', '_blank')">
+                    <img src="assets/nate.jpeg" alt="ate Earnest-Noble" />
+                    <h3>Nate Earnest-Noble</h3>
+                    <p>Quantum Algorithm Engineering Global Lead<br>IBM</p>
+                </div>
+                <div class="speaker-card" onclick="window.open('https://research.ibm.com/people/ritajit-majumdar--1', '_blank')">
+                    <img src="assets/ritajit.png" alt="Ritajit Majumdar" />
+                    <h3>Ritajit Majumdar</h3>
+                    <p>Research Scientist<br>IBM Quantum</p>
+                </div>
+                <div class="speaker-card" onclick="window.open('https://research.ibm.com/people/dhinakaran-vinayagamurthy', '_blank')">
+                    <img src="assets/dhina.png" alt="Dhinakaran Vinayagamurthy" />
+                    <h3>Dhinakaran Vinayagamurthy</h3>
+                    <p>Staff Research Scientist<br>IBM Quantum</p>
+                </div>
+                <div class="speaker-card" onclick="window.open('https://research.ibm.com/people/anupama-ray', '_blank')">
+                    <img src="assets/anupama.webp" alt="Anupama Ray" />
+                    <h3>Anupama Ray</h3>
+                    <p>Senior Research Scientist<br>IBM Research</p>
+                </div>
+            </div>
+            <div class="speakers-grid">
+                <div class="speaker-card" onclick="window.open('https://en.wikipedia.org/wiki/Apoorva_D._Patel', '_blank')">
+                    <img src="assets/apoorva.jpg" alt="Apoorva" />
+                    <h3>Apoorva D. Patel</h3>
+                    <p>Professor<br>CHEP, IISc</p>
+                </div>
+                <div class="speaker-card" onclick="window.open('https://www.linkedin.com/in/arindam-ghosh-1201b122/?original_referer=https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&originalSubdomain=in', '_blank')">
+                    <img src="assets/arindam.webp" alt="Arindam Ghosh" />
+                    <h3>Arindam Ghosh</h3>
+                    <p>Professor<br>Physics Dept, IISc</p>
+                </div>
+                <div class="speaker-card" onclick="window.open('https://www.linkedin.com/in/arun-pati-306834133/?originalSubdomain=in', '_blank')">
+                    <img src="assets/arun.jpeg" alt="Arun Pati" />
+                    <h3>Arun K. Pati</h3>
+                    <p>Director<br>QETCI</p>
+                </div>
+                <div class="speaker-card" onclick="window.open('https://www.linkedin.com/in/kalyan-dasgupta-69195b24/', '_blank')">
+                    <img src="assets/kalyan.png" alt="Kalyan Dasgupta" />
+                    <h3>Kalyan Dasgupta</h3>
+                    <p>Research Staff Member<br>IBM Research</p>
+                </div>
+                <div class="speaker-card" onclick="window.open('https://www.linkedin.com/in/janani-anantha/?originalSubdomain=in', '_blank')">
+                    <img src="assets/janani.jpeg" alt="Janani A" />
+                    <h3>Janani A.</h3>
+                    <p>Quantum Support Engineer<br>IBM Research</p>SSSS
+                </div>
+            </div>
+            <div class="speakers-grid-sanjit">
+                <div class="speaker-card" onclick="window.open('https://eecs.iisc.ac.in/people/chiranjib-bhattacharyya/', '_blank')">
+                    <img src="assets/chiru.jpg" alt="Chiranjib Bhattacharyya" />
+                    <h3>Chiranjib Bhattacharyya</h3>
+                    <p>Professor<br>CSA, IISc</p>
+                </div>
+                <div class="speaker-card" onclick="window.open('https://eecs.iisc.ac.in/people/navin-kashyap/', '_blank')">
+                    <img src="assets/navin.jpg" alt="Navin Kashyap" />
+                    <h3>Navin Kashyap</h3>
+                    <p>Professor<br>ECE, IISc</p>
+                </div>
+                <div class="speaker-card" onclick="window.open('https://eecs.iisc.ac.in/people/c-m-chandrashekar/', '_blank')">
+                    <img src="assets/chandru.jpg" alt="C. M. Chandrashekar" />
+                    <h3>C. M. Chandrashekar</h3>
+                    <p>Assistant Professor<br>DESE, IISc</p>
+                </div>
+                <div class="speaker-card" onclick="window.open('https://eecs.iisc.ac.in/people/sanjit-chatterjee/', '_blank')">
+                    <img src="assets/sanjit.webp" alt="Sanjit" />
+                    <h3>Sanjit Chatterjee</h3>
+                    <p>Associate Professor<br>CSA, IISc</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Collaborations Section -->
+        <section id="collaborations" class="collaborations">
+            <h2>Supported by</h2>
+            <div class="collab-grid">
+                <div class="collab-card" onclick="window.open('https://iqti.iisc.ac.in/', '_blank')">
+                    <div class="collab-text">
+                        <h3>IISc Quantum Technology Initiative</h3>
+                        <p>
+                            Since its launch in September 2020, the aim of IQTI
+                            has been to enable the promise of quantum science
+                            and technology, by operating in sync with the global
+                            developments in this field.
+                        </p>
+                    </div>
+                    <div class="collab-logo">
+                        <img src="assets/IQTI.png" alt="IQTI Logo" />
+                    </div>
+                </div>
+
+                <div class="collab-card" onclick="window.open('https://iqti.iisc.ac.in/quantum-research-park/', '_blank')">
+                    <div class="collab-text">
+                        <h3>Quantum Research Park</h3>
+                        <p>
+                            Quantum Research Park, a Hub for Quantum Computing and related technologies is a project administered by FSID (Foundation for Science Innovation and Development), IISc with support from KITS (Karnataka Innovation and Technology Society), Government of Karnataka.
+                        </p>
+                    </div>
+                    <div class="collab-logo">
+                        <img
+                            src="assets/qurp.png"
+                            alt="QuRP Logo"
+                        />
+                    </div>
+                </div>
+            </div>
+            <div class="collab-grid-below">
+                <div class="collab-card" onclick="window.open('https://www.ibm.com/quantum', '_blank')">
+                    <div class="collab-text">
+                        <h3>IBM Quantum</h3>
+                        <p>
+                            IBM Quantum® is a full-stack quantum computing
+                            provider. Access the world’s largest fleet of
+                            utility-scale quantum computers and performant
+                            Qiskit software to explore, demonstrate, and scale
+                            quantum advantage.
+                        </p>
+                    </div>
+                    <div class="collab-logo">
+                        <img
+                            src="assets/IBM_Quantum_logo.png"
+                            alt="IBM Quantum Logo"
+                        />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Club Collaborations Section -->
+        <section id="club-collaborations" class="collaborations">
+            <h2>Club Collaborations</h2>
+            <div class="collab-grid-club">
+                <div class="club-card" onclick="window.open('https://ensemble.iisc.ac.in/', '_blank')">
+                    <div class="collab-logo-club">
+                        <img src="assets/ensemble.png" alt="Ensemble Logo" />
+                    </div>
+                    <div class="collab-text">
+                        <h3>Ensemble</h3>
+                        <p>Undergraduate Physics Club, IISc</p>
+                    </div>
+                </div>
+
+                <div class="club-card" onclick="window.open('https://databased.csa.iisc.ac.in/', '_blank')">
+                    <div class="collab-logo-club" >
+                        <img src="assets/databased.png" alt="Databased Logo" />
+                    </div>
+                    <div class="collab-text">
+                        <h3>Databased</h3>
+                        <p>Undergraduate CS Club, IISc</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="organizing" class="speakers-1">
+            <h2>Organizing Team</h2>
+            <div class="speakers-grid-1">
+                <div class="speaker-card-1" onclick="window.open('https://www.linkedin.com/in/sai-pavan-krishna-nagam-145248197/', '_blank')">
+                    <img src="assets/saipavan.jpg" alt="Sai Pavan" />
+                    <h4>Sai Pavan<br>Krishna Nagam</h4>
+                </div>
+                <div class="speaker-card-2" onclick="window.open('https://www.linkedin.com/in/debarthi-pal-31797a188', '_blank')">
+                    <img src="assets/debarthi.jpg" alt="Debarthi Pal" />
+                    <h4>Debarthi Pal</h4>
+                </div>
+                <div class="speaker-card-2" onclick="window.open('https://www.linkedin.com/in/prajjwal-saxena-0024/', '_blank')">
+                    <img src="assets/prajjwal.jpg" alt="Prajjwal Saxena" />
+                    <h4>Prajjwal Saxena</h4>
+                </div>
+                <div class="speaker-card-1" onclick="window.open('https://www.linkedin.com/in/vijayshankar80', '_blank')">
+                    <img src="assets/vijay.jpg" alt="Vijay Shankar Shukla" />
+                    <h4>Vijay Shankar<br>Shukla</h4>
+                </div>
+                <div class="speaker-card-1" onclick="window.open('https://www.linkedin.com/in/kalpeshbhatnagar/', '_blank')">
+                    <img src="assets/kalpesh.jpg" alt="Kalpesh Bhatnagar" />
+                    <h4>Kalpesh<br>Bhatnagar</h4>
+                </div>
+            </div>
+        </section>
+
+        <!-- Random Banner -->
+        <section class="banner">
+            <div class="banner-content">
+                <h2>Ready to Join?</h2>
+                <p>Your quantum adventure starts here.</p>
+                <button class="banner-button" onclick="window.open('https://forms.gle/oTsz6LmymCxqVXUDA', '_blank')">Register Now</button>
+            </div>
+            <!--<img src="assets/CTA-bottom-section-bg.png" alt="Register Now" />-->
+        </section>
+
+        <!-- Footer -->
+        <footer id="links" class="footer">
+            <div class="footer-grid">
+                <div>
+                    <h4>Event</h4>
+                    <ul>
+                        <li><a href="#details">Details</a></li>
+                        <li><a href="https://docs.google.com/document/d/e/2PACX-1vSsS--oK1_wnLFpL49v24OksM9GULGYK4f6avmO34VwYYhD9nViaS3q5kd1zZ3T9VE0WVZnB69ML7Js/pub" target="_blank" class="no-deco">Hackathon</a></li>
+                        <li><a href="#schedule">Schedule</a></li>
+                        <li><a href="#speakers">Speakers</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Collaborations</h4>
+                    <ul>
+                        <li><a href="https://iqti.iisc.ac.in/" target="_blank">IQTI</a></li>
+                        <li><a href="https://ensemble.iisc.ac.in/" target="_blank">Ensemble</a></li>
+                        <li><a href="https://databased.csa.iisc.ac.in/" target="_blank">Databased</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Social</h4>
+                    <ul>
+                        <li><a href="https://www.instagram.com/iiscqiskitfallfest?igsh=MXRtMThtdGl5c21hZQ==" target="_blank">Instagram</a></li>
+                        <li><a href="https://www.linkedin.com/company/iisc-x-qiskit-fall-fest/" target="_blank">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="footer-copy">
+                &copy; 2025 IBM Fall Fest IISc. All rights reserved.
+            </p>
+        </footer>
+    </body>
+</html>
